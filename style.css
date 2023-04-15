@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    direction: rtl;
+}
+
+body{
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.amir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.warper{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 50px darkgray;
+margin-top: 70px;
+width: 300px;
+height: 500px;
+    border-radius: 20px;
+}
+
+.warper header{
+    text-align: center;
+    padding:15px;
+    color: #fff;
+text-shadow: 0 0 20px darkgray;
+
+}
+hr{
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 20px;
+    margin-right: 5px;
+    padding: 10px;
+    color: #fff;
+    opacity: 70%;
+}
+
+.input-box{
+    margin-bottom: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.input-box input{
+    
+    width: 280px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    direction: ltr;
+}
+
+
+
+button{
+width: 80px;
+height: 40px;
+position: relative;
+right: 110px;
+margin-top: 10px;
+cursor: pointer;
+font-size: 1.2em;
+font-weight: 600;
+background-color: darkgrey;
+border-radius: 10px;
+}
+
+button:hover{
+    background-color: #0101;
+    border-radius: 20px;
+    transition: 2s;
+}
+
+.input-boxerror{
+    border: 2px solid red;
+}
+
+.input-boxsuccess{
+    border: 2px solid green;
+}
